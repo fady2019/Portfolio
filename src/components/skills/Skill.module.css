@@ -1,0 +1,39 @@
+.skill {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  user-select: none;
+}
+
+.skill .skill-name {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  min-width: 80px;
+  width: 30%;
+  text-align: center;
+  padding-right: 12px;
+  border-right: 1px solid var(--dark-gray);
+}
+
+.skill .skill-progress {
+  margin: 0 12px;
+}
+
+.skill .skill-level {
+  min-width: 65px;
+  width: 15%;
+  text-align: center;
+  padding-left: 12px;
+  border-left: 1px solid var(--dark-gray);
+}
+
+.popover {
+  position: absolute;
+  top: -50%;
+  left: 0;
+  transform: translateY(25%);
+  padding: 8px 12px;
+  font-size: small;
+}

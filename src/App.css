@@ -1,0 +1,41 @@
+:root {
+  --very-dark-gray: #131313;
+  --dark-gray: #858585;
+  --light-gray: #ebebeb;
+
+  --white: #fff;
+}
+
+.app {
+  --shadow-color: var(--dark-gray);
+  --border-color: var(--dark-gray);
+
+  /* global */
+  --bg: var(--light-gray);
+  --main-color: var(--very-dark-gray);
+
+  /* header */
+  --header-bg: var(--light-gray);
+
+  background-color: var(--bg);
+  color: var(--main-color);
+  font-size: 18px;
+  height: 100%;
+}
+
+.app.dark-mode {
+  /* global */
+  --bg: var(--very-dark-gray);
+  --main-color: var(--light-gray);
+
+  /* header */
+  --header-bg: var(--very-dark-gray);
+}
+
+.app.dark-mode .icon {
+  color: var(--main-color);
+}
+
+.align-center {
+  text-align: center;
+}

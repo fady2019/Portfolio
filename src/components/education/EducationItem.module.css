@@ -1,0 +1,27 @@
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.education-item .school-logo {
+  object-fit: contain;
+  width: 100px;
+}
+
+.education-item .school-logo.default-logo.dark-mode {
+  filter: invert(1) contrast(0.75);
+}
+
+.education-item .school-name {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.education-item .school-degree-and-field {
+  margin: 5px 0 10px 0;
+}
+
+.education-item .dates {
+  display: block;
+}

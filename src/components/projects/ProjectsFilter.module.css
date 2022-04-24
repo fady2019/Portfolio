@@ -1,0 +1,13 @@
+.projects-filter-segment,
+.projects-filter-techs,
+.projects-filter-input {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 899px) {
+  .projects-filter {
+    width: calc(75%) !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

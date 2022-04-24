@@ -1,0 +1,7 @@
+@media screen and (min-width: 769px) and (max-width: 899px) {
+  .project-list {
+    width: 75%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

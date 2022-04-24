@@ -1,0 +1,53 @@
+.nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav.nav-mobile {
+  overflow-y: auto;
+  position: absolute;
+  flex-direction: column;
+  top: 65px;
+  right: -25px;
+  padding: 15px 30px;
+  background-color: var(--bg);
+  box-shadow: -10px 10px 30px -25px var(--shadow-color);
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  z-index: 30;
+}
+
+.nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+.nav.nav-mobile ul {
+  flex-direction: column;
+}
+
+.nav ul a {
+  user-select: none;
+  opacity: 0.6;
+}
+
+.nav ul li:hover a,
+.nav ul a.active,
+.nav ul a:active {
+  opacity: 1;
+}
+
+.nav ul a.active {
+  pointer-events: none;
+}
+
+.theme-toggle-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.theme-toggle-btn img {
+  width: 18px;
+}

@@ -1,0 +1,42 @@
+.project {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.project-image {
+  object-fit: cover;
+  min-height: 250px;
+}
+
+.project-detail {
+  padding: 15px 15px 30px 15px;
+}
+
+.project-title {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0 0 10px 0;
+}
+
+.project-description {
+  margin-top: 0;
+  line-height: 1.2;
+  opacity: 0.75;
+}
+
+.project-technologies,
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.project-tech {
+  padding: 6px 8px;
+  user-select: none;
+}
+
+.project-actions {
+  margin-top: 20px;
+}

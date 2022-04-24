@@ -1,0 +1,32 @@
+.dropdown .dropdown-btn {
+  margin-top: 10px;
+  border: none;
+  outline: none;
+  background-color: var(--bg);
+  color: var(--main-color);
+  min-width: 120px;
+  padding: 8px 12px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.dropdown .dropdown-content {
+  min-width: 150px;
+  width: max-content;
+  margin-top: 2px;
+  padding: 8px 12px;
+  border-radius: 2px;
+  background-color: var(--bg);
+  color: var(--main-color);
+  z-index: 100;
+}
+
+.dropdown .dropdown-content li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  opacity: 0.8;
+}
+
+.dropdown .dropdown-content li:hover {
+  opacity: 1;
+}

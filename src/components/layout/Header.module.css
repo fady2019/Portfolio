@@ -1,0 +1,12 @@
+.header {
+  position: relative;
+  background-color: var(--header-bg);
+  padding: 8px 0;
+  box-shadow: 0 0 25px -15px var(--shadow-color);
+  height: 74px;
+  z-index: 3;
+}
+
+.header > div {
+  height: 100%;
+}

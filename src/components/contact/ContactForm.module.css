@@ -1,0 +1,46 @@
+.contact-form {
+  padding: 10px 0;
+}
+
+.form-action,
+.social-links {
+  display: flex;
+}
+
+.form-action {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
+  --github-color: #333;
+  --linkedin-color: #0077b5;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-links.dark-mode {
+  --github-color: #f5f5f5;
+  --linkedin-color: #00a0dc;
+}
+
+.github,
+.linkedin {
+  font-size: 35px;
+}
+
+.github a {
+  color: var(--github-color);
+}
+
+.linkedin a {
+  color: var(--linkedin-color);
+}
+
+@media screen and (min-width: 769px) and (max-width: 899px) {
+  .contact-form {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

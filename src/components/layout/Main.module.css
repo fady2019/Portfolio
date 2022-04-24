@@ -1,0 +1,54 @@
+.main {
+  overflow: auto;
+  position: relative;
+  height: calc(100% - calc(148px));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 25% 50%;
+  padding-top: 30px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  z-index: 1;
+}
+
+.main::-webkit-scrollbar {
+  display: none;
+}
+
+.main:not(.dark) {
+  background-image: url(../../assets/light-mode-bg.jpg);
+}
+
+.main.dark {
+  background-image: url(../../assets/dark-mode-bg.jpg);
+}
+
+.main::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.main:not(.dark)::before {
+  background-color: var(--dark-gray);
+  opacity: 0.7;
+}
+
+.main.dark::before {
+  background-color: var(--very-dark-gray);
+  opacity: 0.85;
+}
+
+.main > .main-container {
+  position: relative;
+  z-index: 1;
+}
+
+.loader {
+  left: 50%;
+  transform: translateX(-50%);
+}
