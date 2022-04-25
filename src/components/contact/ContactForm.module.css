@@ -37,6 +37,20 @@
   color: var(--linkedin-color);
 }
 
+@media screen and (max-width: 599px) {
+  .github,
+  .linkedin {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  .github,
+  .linkedin {
+    font-size: 32px;
+  }
+}
+
 @media screen and (min-width: 769px) and (max-width: 899px) {
   .contact-form {
     width: 75%;

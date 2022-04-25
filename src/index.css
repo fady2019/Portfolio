@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: 'Rubik', sans-serif;
   font-weight: 400;
+  font-size: 18px;
   height: 100%;
 }
 
@@ -33,4 +34,34 @@ body {
 a {
   text-decoration: none;
   color: var(--main-color);
+}
+
+@media screen and (max-width: 599px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 1.75em;
+  }
+
+  h2 {
+    font-size: 1.35em;
+  }
 }
