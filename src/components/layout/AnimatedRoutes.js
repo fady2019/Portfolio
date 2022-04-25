@@ -14,6 +14,7 @@ const routes = [
   { path: '/education', element: <Education /> },
   { path: '/projects', element: <Projects /> },
   { path: '/contact', element: <Contact /> },
+  { path: '*', element: <Navigate replace to="/home" /> },
 ];
 
 const AnimatedRoutes = () => {
