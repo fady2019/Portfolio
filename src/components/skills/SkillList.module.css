@@ -1,0 +1,10 @@
+.skills-category{
+    text-transform: capitalize;
+}
+
+.skill-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}

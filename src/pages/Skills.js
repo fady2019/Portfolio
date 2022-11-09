@@ -7,8 +7,6 @@ const Skills = () => {
 
   return (
     <Fragment>
-      {/* <h2>Skills</h2> */}
-
       {skills.length > 0 ? (
         <SkillList skills={skills} />
       ) : (
